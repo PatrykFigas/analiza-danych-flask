@@ -1,0 +1,825 @@
+{
+  "totalRecords": 16,
+  "variableId": 196229,
+  "measureUnitId": 4,
+  "aggregateId": 1,
+  "lastUpdate": null,
+  "results": [
+    {
+      "id": "011200000000",
+      "name": "MAŁOPOLSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3803,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3972,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4325,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4699,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 5143,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 5432,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 6053,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 6879,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 7843,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "012400000000",
+      "name": "ŚLĄSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 4180,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 4227,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4513,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4952,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 5279,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 5395,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5858,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 6856,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 7801,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "020800000000",
+      "name": "LUBUSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3230,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3450,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3752,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4042,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4272,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4512,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5073,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5937,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6667,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "023000000000",
+      "name": "WIELKOPOLSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3586,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3829,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4068,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4397,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4649,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4887,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5330,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5933,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6644,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "023200000000",
+      "name": "ZACHODNIOPOMORSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3489,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3663,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3927,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4220,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4569,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4716,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5168,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5818,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6616,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "030200000000",
+      "name": "DOLNOŚLĄSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 4093,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 4312,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4612,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4943,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 5394,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 5675,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 6309,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 7183,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 8053,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "031600000000",
+      "name": "OPOLSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3671,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3877,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4174,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4438,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4722,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4897,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5410,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 6133,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6822,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "040400000000",
+      "name": "KUJAWSKO-POMORSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3285,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3443,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3676,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3931,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4389,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4472,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5075,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5673,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6442,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "042200000000",
+      "name": "POMORSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 4059,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 4244,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 4479,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4803,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 5229,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 5403,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 6027,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 6786,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 7529,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "042800000000",
+      "name": "WARMIŃSKO-MAZURSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3074,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3213,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3399,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3608,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 3934,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4058,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 4496,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5063,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 5790,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "051000000000",
+      "name": "ŁÓDZKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3618,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3712,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3954,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 4294,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4704,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4968,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 5445,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 6126,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6927,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "052600000000",
+      "name": "ŚWIĘTOKRZYSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3266,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3399,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3676,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3893,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4197,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4322,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 4876,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5333,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6062,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "060600000000",
+      "name": "LUBELSKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3348,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3462,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3694,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3933,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4152,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4326,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 4824,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5425,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6190,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "061800000000",
+      "name": "PODKARPACKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3232,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3367,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3569,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3804,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4081,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4262,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 4753,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5356,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6194,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "062000000000",
+      "name": "PODLASKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 3221,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 3357,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 3646,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 3827,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 4236,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 4391,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 4821,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 5518,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 6274,
+          "attrId": 1
+        }
+      ]
+    },
+    {
+      "id": "071400000000",
+      "name": "MAZOWIECKIE",
+      "values": [
+        {
+          "year": "2015",
+          "val": 5044,
+          "attrId": 1
+        },
+        {
+          "year": "2016",
+          "val": 5215,
+          "attrId": 1
+        },
+        {
+          "year": "2017",
+          "val": 5518,
+          "attrId": 1
+        },
+        {
+          "year": "2018",
+          "val": 5988,
+          "attrId": 1
+        },
+        {
+          "year": "2019",
+          "val": 6334,
+          "attrId": 1
+        },
+        {
+          "year": "2020",
+          "val": 6643,
+          "attrId": 1
+        },
+        {
+          "year": "2021",
+          "val": 7254,
+          "attrId": 1
+        },
+        {
+          "year": "2022",
+          "val": 8194,
+          "attrId": 1
+        },
+        {
+          "year": "2023",
+          "val": 9231,
+          "attrId": 1
+        }
+      ]
+    }
+  ]
+}

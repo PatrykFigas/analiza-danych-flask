@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="card">
+    <h1>Statistical Data Analysis</h1>
+
+    <p>
+        This project presents an analysis of real-world statistical data
+        and displays the results in a Flask web application.
+    </p>
+
+    <p>
+        Log in to access the data analysis report.
+    </p>
+
+    <a class="button" href="{{ url_for('login') }}">Go to login</a>
+</section>
+{% endblock %}
