@@ -2,21 +2,100 @@
 
 {% block content %}
 <section class="card">
-    <h1>Data Analysis Report</h1>
+    <h1>Average Monthly Gross Wages Report</h1>
 
     <p>
-        This page will contain the final statistical analysis, charts,
-        tables and conclusions.
+        This report presents an analysis of average monthly gross wages
+        in Polish voivodeships based on data downloaded from Statistics Poland
+        Local Data Bank API.
     </p>
 
-    <h2>Report sections</h2>
+    {% if summary %}
+        <h2>Dataset overview</h2>
 
-    <ul>
-        <li>Data source description</li>
-        <li>Data preparation</li>
-        <li>Statistical analysis</li>
-        <li>Data visualization</li>
-        <li>Final conclusions</li>
-    </ul>
+        <ul>
+            <li>First year: <strong>{{ summary.first_year }}</strong></li>
+            <li>Latest year: <strong>{{ summary.latest_year }}</strong></li>
+            <li>Number of regions: <strong>{{ summary.regions_count }}</strong></li>
+            <li>Number of records: <strong>{{ summary.rows_count }}</strong></li>
+            <li>
+                Average wage in {{ summary.latest_year }}:
+                <strong>{{ summary.mean_wage_latest_year }} PLN</strong>
+            </li>
+        </ul>
+
+        <h2>Main findings</h2>
+
+        <p>
+            In {{ summary.latest_year }}, the highest average monthly gross wage
+            was recorded in <strong>{{ summary.highest_wage_region }}</strong>
+            and amounted to <strong>{{ summary.highest_wage_value }} PLN</strong>.
+        </p>
+
+        <p>
+            The lowest average monthly gross wage was recorded in
+            <strong>{{ summary.lowest_wage_region }}</strong>
+            and amounted to <strong>{{ summary.lowest_wage_value }} PLN</strong>.
+        </p>
+
+        <p>
+            The highest wage growth between {{ summary.first_year }} and
+            {{ summary.latest_year }} was observed in
+            <strong>{{ summary.highest_growth_region }}</strong>
+            and reached <strong>{{ summary.highest_growth_percent }}%</strong>.
+        </p>
+
+        <p>
+            The lowest wage growth was observed in
+            <strong>{{ summary.lowest_growth_region }}</strong>
+            and reached <strong>{{ summary.lowest_growth_percent }}%</strong>.
+        </p>
+
+        <h2>Average wage trend</h2>
+        <img
+            class="chart"
+            src="{{ url_for('static', filename='charts/mean_wage_trend.png') }}"
+            alt="Average monthly wage trend"
+        >
+
+        <h2>Voivodeship ranking in {{ summary.latest_year }}</h2>
+        <img
+            class="chart"
+            src="{{ url_for('static', filename='charts/latest_year_ranking.png') }}"
+            alt="Average monthly wage ranking by voivodeship"
+        >
+
+        <h2>Wage growth by voivodeship</h2>
+        <img
+            class="chart"
+            src="{{ url_for('static', filename='charts/wage_growth.png') }}"
+            alt="Wage growth by voivodeship"
+        >
+
+        <h2>Ranking table</h2>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Voivodeship</th>
+                    <th>Average monthly wage [PLN]</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in summary.latest_year_ranking %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ row.region }}</td>
+                        <td>{{ row.average_monthly_wage_pln }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="error">
+            Analysis summary was not found. Run the analysis script first.
+        </p>
+    {% endif %}
 </section>
 {% endblock %}

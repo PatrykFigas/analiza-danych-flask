@@ -111,3 +111,31 @@ button:hover,
     background-color: #fee2e2;
     color: #991b1b;
 }
+.chart {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px 0 40px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f3f4f6;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9fafb;
+}

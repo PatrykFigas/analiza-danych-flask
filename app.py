@@ -1,3 +1,6 @@
+import json
+from pathlib import Path
+
 from flask import Flask, render_template, redirect, url_for, request, session, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -21,6 +24,14 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
 
+def load_analysis_summary() -> dict:
+    summary_path = Path("data/analysis_summary.json")
+
+    if not summary_path.exists():
+        return {}
+
+    with summary_path.open("r", encoding="utf-8") as file:
+        return json.load(file)
 
 @app.route("/")
 def index():
@@ -81,7 +92,9 @@ def report():
     if "username" not in session:
         return redirect(url_for("login"))
 
-    return render_template("report.html")
+    summary = load_analysis_summary()
+
+    return render_template("report.html", summary=summary)
 
 
 @app.route("/logout")
