@@ -4,6 +4,10 @@
 <section class="card">
     <h1>Register</h1>
 
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
     <form method="POST">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required>
