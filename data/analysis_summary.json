@@ -1,81 +1,81 @@
 {
   "first_year": 2015,
-  "latest_year": 2023,
+  "latest_year": 2024,
   "regions_count": 16,
-  "rows_count": 144,
-  "mean_wage_latest_year": 6942.81,
+  "rows_count": 160,
+  "mean_wage_latest_year": 8164.46,
   "highest_wage_region": "MAZOWIECKIE",
-  "highest_wage_value": 9231.0,
-  "lowest_wage_region": "WARMIŃSKO-MAZURSKIE",
-  "lowest_wage_value": 5790.0,
-  "highest_growth_region": "LUBUSKIE",
-  "highest_growth_percent": 106.41,
+  "highest_wage_value": 10018.71,
+  "lowest_wage_region": "PODKARPACKIE",
+  "lowest_wage_value": 7514.69,
+  "highest_growth_region": "MAŁOPOLSKIE",
+  "highest_growth_percent": 125.72,
   "lowest_growth_region": "MAZOWIECKIE",
-  "lowest_growth_percent": 83.01,
+  "lowest_growth_percent": 96.5,
   "latest_year_ranking": [
     {
       "region": "MAZOWIECKIE",
-      "average_monthly_wage_pln": 9231.0
+      "average_monthly_wage_pln": 10018.71
     },
     {
       "region": "DOLNOŚLĄSKIE",
-      "average_monthly_wage_pln": 8053.0
+      "average_monthly_wage_pln": 8867.46
     },
     {
       "region": "MAŁOPOLSKIE",
-      "average_monthly_wage_pln": 7843.0
-    },
-    {
-      "region": "ŚLĄSKIE",
-      "average_monthly_wage_pln": 7801.0
+      "average_monthly_wage_pln": 8818.71
     },
     {
       "region": "POMORSKIE",
-      "average_monthly_wage_pln": 7529.0
+      "average_monthly_wage_pln": 8620.28
+    },
+    {
+      "region": "ŚLĄSKIE",
+      "average_monthly_wage_pln": 8537.54
     },
     {
       "region": "ŁÓDZKIE",
-      "average_monthly_wage_pln": 6927.0
-    },
-    {
-      "region": "OPOLSKIE",
-      "average_monthly_wage_pln": 6822.0
-    },
-    {
-      "region": "LUBUSKIE",
-      "average_monthly_wage_pln": 6667.0
-    },
-    {
-      "region": "WIELKOPOLSKIE",
-      "average_monthly_wage_pln": 6644.0
+      "average_monthly_wage_pln": 8096.32
     },
     {
       "region": "ZACHODNIOPOMORSKIE",
-      "average_monthly_wage_pln": 6616.0
+      "average_monthly_wage_pln": 8027.37
     },
     {
-      "region": "KUJAWSKO-POMORSKIE",
-      "average_monthly_wage_pln": 6442.0
+      "region": "OPOLSKIE",
+      "average_monthly_wage_pln": 7958.35
+    },
+    {
+      "region": "LUBUSKIE",
+      "average_monthly_wage_pln": 7887.19
     },
     {
       "region": "PODLASKIE",
-      "average_monthly_wage_pln": 6274.0
-    },
-    {
-      "region": "PODKARPACKIE",
-      "average_monthly_wage_pln": 6194.0
+      "average_monthly_wage_pln": 7850.16
     },
     {
       "region": "LUBELSKIE",
-      "average_monthly_wage_pln": 6190.0
+      "average_monthly_wage_pln": 7771.05
+    },
+    {
+      "region": "WIELKOPOLSKIE",
+      "average_monthly_wage_pln": 7759.22
+    },
+    {
+      "region": "KUJAWSKO-POMORSKIE",
+      "average_monthly_wage_pln": 7710.78
     },
     {
       "region": "ŚWIĘTOKRZYSKIE",
-      "average_monthly_wage_pln": 6062.0
+      "average_monthly_wage_pln": 7664.18
     },
     {
       "region": "WARMIŃSKO-MAZURSKIE",
-      "average_monthly_wage_pln": 5790.0
+      "average_monthly_wage_pln": 7529.41
+    },
+    {
+      "region": "PODKARPACKIE",
+      "average_monthly_wage_pln": 7514.69
     }
   ]
 }

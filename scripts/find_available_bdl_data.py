@@ -4,13 +4,13 @@ import requests
 API_URL = "https://bdl.stat.gov.pl/api/v1/data/by-variable/{variable_id}"
 
 VARIABLES_TO_CHECK = {
+    64428: "average monthly gross wages - total",
     58787: "average monthly gross wages - total",
     58879: "average monthly gross wages",
     196229: "average monthly gross wages - total alternative",
-    459121: "unemployment",
 }
 
-YEARS_TO_CHECK = [2015, 2020, 2021, 2022, 2023]
+YEARS_TO_CHECK = [2015, 2020, 2021, 2022, 2023, 2024, 2025]
 UNIT_LEVELS = range(0, 8)
 
 
