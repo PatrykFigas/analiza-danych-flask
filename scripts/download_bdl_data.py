@@ -7,9 +7,9 @@ import requests
 
 API_URL = "https://bdl.stat.gov.pl/api/v1/data/by-variable/{variable_id}"
 
-VARIABLE_ID = 196229
+VARIABLE_ID = 64428
 UNIT_LEVEL = 2
-YEARS = list(range(2015, 2024))
+YEARS = list(range(2015, 2026))
 
 OUTPUT_DIR = Path("data")
 RAW_OUTPUT_PATH = OUTPUT_DIR / "raw_average_monthly_wages.json"
