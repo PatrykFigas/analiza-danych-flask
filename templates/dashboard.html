@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="card">
+    <h1>User Dashboard</h1>
+
+    <p>Welcome, <strong>{{ username }}</strong>!</p>
+
+    <p>
+        You are logged in. You can now access the statistical data analysis report.
+    </p>
+
+    <a class="button" href="{{ url_for('report') }}">Open report</a>
+</section>
+{% endblock %}
