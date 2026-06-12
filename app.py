@@ -47,7 +47,9 @@ def login():
         user = User.query.filter_by(username=username).first()
 
         if user and check_password_hash(user.password_hash, password):
+            session["user_id"] = user.id
             session["username"] = user.username
+
             flash("You have been logged in successfully.", "success")
             return redirect(url_for("dashboard"))
 
@@ -81,7 +83,7 @@ def register():
 
 @app.route("/dashboard")
 def dashboard():
-    if "username" not in session:
+    if "user_id" not in session:
         return redirect(url_for("login"))
 
     return render_template("dashboard.html", username=session["username"])
@@ -89,7 +91,7 @@ def dashboard():
 
 @app.route("/report")
 def report():
-    if "username" not in session:
+    if "user_id" not in session:
         return redirect(url_for("login"))
 
     summary = load_analysis_summary()
@@ -99,7 +101,7 @@ def report():
 
 @app.route("/logout")
 def logout():
-    session.pop("username", None)
+    session.clear()
     flash("You have been logged out.", "success")
     return redirect(url_for("index"))
 
