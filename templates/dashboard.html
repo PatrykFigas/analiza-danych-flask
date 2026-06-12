@@ -1,15 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="card">
-    <h1>User Dashboard</h1>
+<section class="card hero">
+    <span class="eyebrow">Python Flask Project</span>
 
-    <p>Welcome, <strong>{{ username }}</strong>!</p>
+    <h1>Statistical Data Analysis</h1>
 
     <p>
-        You are logged in. You can now access the statistical data analysis report.
+        This project presents an analysis of real-world statistical data and displays
+        the results in a Flask web application.
     </p>
 
-    <a class="button" href="{{ url_for('report') }}">Open report</a>
+    <p>
+        The report focuses on average monthly gross wages in Polish voivodeships
+        based on data from Statistics Poland Local Data Bank API.
+    </p>
+
+    <div class="hero-actions">
+        {% if session.get('user_id') %}
+            <a class="button" href="{{ url_for('report') }}">Open report</a>
+            <a class="button secondary" href="{{ url_for('dashboard') }}">Go to dashboard</a>
+        {% else %}
+            <a class="button" href="{{ url_for('login') }}">Go to login</a>
+            <a class="button secondary" href="{{ url_for('register') }}">Create account</a>
+        {% endif %}
+    </div>
 </section>
 {% endblock %}
